@@ -1,0 +1,89 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jhipster.Crosscutting", "Jhipster.Crosscutting\Jhipster.Crosscutting.csproj", "{6D1D50BB-24AD-4282-A34A-466A338EED47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jhipster.Domain", "Jhipster.Domain\Jhipster.Domain.csproj", "{DDE64B86-8532-4A99-9875-1A505E14E6AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jhipster.Dto", "Jhipster.Dto\Jhipster.Dto.csproj", "{BBCC440E-DBDE-4667-9695-30BCA5F137D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jhipster.Domain.Services", "Jhipster.Domain.Services\Jhipster.Domain.Services.csproj", "{E2A9263D-6C13-4C9D-A546-5F1E7BC438E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jhipster.Infrastructure", "Jhipster.Infrastructure\Jhipster.Infrastructure.csproj", "{3A28E777-70EE-4114-A57A-974C728BFE72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jhipster", "Jhipster\Jhipster.csproj", "{EF05D011-6E1C-4A49-9DE2-ABE29A7BA260}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modular", "Modular", "{8C065206-E6A2-4497-8BE6-7D911B3C3E72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SportSvc", "SportSvc", "{C779321A-8C92-4485-B92E-29A553C2889E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportSvc", "Modular\SportSvc\SportSvc\SportSvc.csproj", "{5B955F29-BFAC-4CCF-8B1F-E9B631EBEF64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportSvc.Application", "Modular\SportSvc\SportSvc.Application\SportSvc.Application.csproj", "{F7A6C1EF-F767-40ED-8101-2D83F2C61684}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportSvc.Domain", "Modular\SportSvc\SportSvc.Domain\SportSvc.Domain.csproj", "{727631D7-4674-4295-8F9F-99285554A485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportSvc.Infrastructure", "Modular\SportSvc\SportSvc.Infrastructure\SportSvc.Infrastructure.csproj", "{C0B8BE64-5283-4B7A-BAFE-703F7EFB30F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D1D50BB-24AD-4282-A34A-466A338EED47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1D50BB-24AD-4282-A34A-466A338EED47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1D50BB-24AD-4282-A34A-466A338EED47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1D50BB-24AD-4282-A34A-466A338EED47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE64B86-8532-4A99-9875-1A505E14E6AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE64B86-8532-4A99-9875-1A505E14E6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE64B86-8532-4A99-9875-1A505E14E6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE64B86-8532-4A99-9875-1A505E14E6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBCC440E-DBDE-4667-9695-30BCA5F137D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBCC440E-DBDE-4667-9695-30BCA5F137D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBCC440E-DBDE-4667-9695-30BCA5F137D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBCC440E-DBDE-4667-9695-30BCA5F137D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A9263D-6C13-4C9D-A546-5F1E7BC438E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A9263D-6C13-4C9D-A546-5F1E7BC438E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A9263D-6C13-4C9D-A546-5F1E7BC438E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A9263D-6C13-4C9D-A546-5F1E7BC438E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A28E777-70EE-4114-A57A-974C728BFE72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A28E777-70EE-4114-A57A-974C728BFE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A28E777-70EE-4114-A57A-974C728BFE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A28E777-70EE-4114-A57A-974C728BFE72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF05D011-6E1C-4A49-9DE2-ABE29A7BA260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF05D011-6E1C-4A49-9DE2-ABE29A7BA260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF05D011-6E1C-4A49-9DE2-ABE29A7BA260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF05D011-6E1C-4A49-9DE2-ABE29A7BA260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B955F29-BFAC-4CCF-8B1F-E9B631EBEF64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B955F29-BFAC-4CCF-8B1F-E9B631EBEF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B955F29-BFAC-4CCF-8B1F-E9B631EBEF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B955F29-BFAC-4CCF-8B1F-E9B631EBEF64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7A6C1EF-F767-40ED-8101-2D83F2C61684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A6C1EF-F767-40ED-8101-2D83F2C61684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A6C1EF-F767-40ED-8101-2D83F2C61684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A6C1EF-F767-40ED-8101-2D83F2C61684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727631D7-4674-4295-8F9F-99285554A485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727631D7-4674-4295-8F9F-99285554A485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727631D7-4674-4295-8F9F-99285554A485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727631D7-4674-4295-8F9F-99285554A485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B8BE64-5283-4B7A-BAFE-703F7EFB30F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B8BE64-5283-4B7A-BAFE-703F7EFB30F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B8BE64-5283-4B7A-BAFE-703F7EFB30F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B8BE64-5283-4B7A-BAFE-703F7EFB30F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C779321A-8C92-4485-B92E-29A553C2889E} = {8C065206-E6A2-4497-8BE6-7D911B3C3E72}
+		{5B955F29-BFAC-4CCF-8B1F-E9B631EBEF64} = {C779321A-8C92-4485-B92E-29A553C2889E}
+		{F7A6C1EF-F767-40ED-8101-2D83F2C61684} = {C779321A-8C92-4485-B92E-29A553C2889E}
+		{727631D7-4674-4295-8F9F-99285554A485} = {C779321A-8C92-4485-B92E-29A553C2889E}
+		{C0B8BE64-5283-4B7A-BAFE-703F7EFB30F0} = {C779321A-8C92-4485-B92E-29A553C2889E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2DCB8E4-F67F-49CF-A2DE-B3F18112BBC3}
+	EndGlobalSection
+EndGlobal

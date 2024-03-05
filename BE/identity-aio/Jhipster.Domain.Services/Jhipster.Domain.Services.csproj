@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6</TargetFramework>
+        <RootNamespace>Jhipster.Domain.Services</RootNamespace>
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="JHipsterNet.Core" Version="1.0.9" />
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+        <PackageReference Include="LanguageExt.Core" Version="4.2.9" />
+        <PackageReference Include="MediatR" Version="11.0.0" />
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+        <PackageReference Include="RestSharp" Version="108.0.2" />
+        <PackageReference Include="RestClient" Version="3.1024.23771" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Jhipster.Infrastructure\Jhipster.Infrastructure.csproj" />
+        <ProjectReference Include="..\Jhipster.Domain\Jhipster.Domain.csproj" />
+        <ProjectReference Include="..\Jhipster.Crosscutting\Jhipster.Crosscutting.csproj" />
+        <ProjectReference Include="..\Modular\SportSvc\SportSvc.Domain\SportSvc.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="RestSharp" />
+      <None Remove="RestClient" />
+    </ItemGroup>
+</Project>
